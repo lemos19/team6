@@ -10507,3 +10507,691 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY com.freescale.s32ds.cross.sdk.support 1 0 2023-10-08 17:33:10.913
 !MESSAGE Load SDKs, sec.: 0.012
+!SESSION 2023-10-08 17:39:15.208 -----------------------------------------------
+eclipse.buildId=2.0.0.202001161704
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-08 17:39:21.017
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ASUS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.749
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.749
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.750
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.750
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.751
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.753
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.753
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.754
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.754
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.755
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.770
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.771
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.771
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.772
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.772
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.773
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.774
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.774
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.775
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.775
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.776
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.776
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.777
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.778
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.778
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.780
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.794
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.27_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.795
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.27_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.796
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.27_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.796
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.27_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.797
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.27_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.797
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.27_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.798
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.27_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.798
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.27_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.798
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.27_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.799
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.27_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.799
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.27_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.816
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.817
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.818
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.818
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.819
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.819
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.820
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.821
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.821
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.822
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.822
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.823
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.839
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.840
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.841
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.841
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.842
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.842
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.843
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.843
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.844
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.845
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.865
+!MESSAGE Actions have been registered for SDK S32K144_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.865
+!MESSAGE Actions have been registered for SDK S32K144_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.866
+!MESSAGE Actions have been registered for SDK S32K144_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.866
+!MESSAGE Actions have been registered for SDK S32K144_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.867
+!MESSAGE Actions have been registered for SDK S32K144_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.868
+!MESSAGE Actions have been registered for SDK S32K144_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.868
+!MESSAGE Actions have been registered for SDK S32K144_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.869
+!MESSAGE Actions have been registered for SDK S32K144_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.870
+!MESSAGE Actions have been registered for SDK S32K144_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.870
+!MESSAGE Actions have been registered for SDK S32K144_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.871
+!MESSAGE Actions have been registered for SDK S32K144_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.883
+!MESSAGE Actions have been registered for SDK S32K142_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.884
+!MESSAGE Actions have been registered for SDK S32K142_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.885
+!MESSAGE Actions have been registered for SDK S32K142_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.885
+!MESSAGE Actions have been registered for SDK S32K142_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.885
+!MESSAGE Actions have been registered for SDK S32K142_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.886
+!MESSAGE Actions have been registered for SDK S32K142_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.886
+!MESSAGE Actions have been registered for SDK S32K142_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.886
+!MESSAGE Actions have been registered for SDK S32K142_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.887
+!MESSAGE Actions have been registered for SDK S32K142_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.887
+!MESSAGE Actions have been registered for SDK S32K142_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.888
+!MESSAGE Actions have been registered for SDK S32K142_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.900
+!MESSAGE Actions have been registered for SDK S32K146_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.901
+!MESSAGE Actions have been registered for SDK S32K146_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.901
+!MESSAGE Actions have been registered for SDK S32K146_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.902
+!MESSAGE Actions have been registered for SDK S32K146_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.902
+!MESSAGE Actions have been registered for SDK S32K146_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.903
+!MESSAGE Actions have been registered for SDK S32K146_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.904
+!MESSAGE Actions have been registered for SDK S32K146_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.904
+!MESSAGE Actions have been registered for SDK S32K146_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.905
+!MESSAGE Actions have been registered for SDK S32K146_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.905
+!MESSAGE Actions have been registered for SDK S32K146_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.906
+!MESSAGE Actions have been registered for SDK S32K146_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.920
+!MESSAGE Actions have been registered for SDK S32K148_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.920
+!MESSAGE Actions have been registered for SDK S32K148_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.920
+!MESSAGE Actions have been registered for SDK S32K148_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.921
+!MESSAGE Actions have been registered for SDK S32K148_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.921
+!MESSAGE Actions have been registered for SDK S32K148_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.922
+!MESSAGE Actions have been registered for SDK S32K148_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.922
+!MESSAGE Actions have been registered for SDK S32K148_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.923
+!MESSAGE Actions have been registered for SDK S32K148_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.923
+!MESSAGE Actions have been registered for SDK S32K148_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.924
+!MESSAGE Actions have been registered for SDK S32K148_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.924
+!MESSAGE Actions have been registered for SDK S32K148_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.935
+!MESSAGE Actions have been registered for SDK S32K116_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.936
+!MESSAGE Actions have been registered for SDK S32K116_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.936
+!MESSAGE Actions have been registered for SDK S32K116_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.937
+!MESSAGE Actions have been registered for SDK S32K116_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.938
+!MESSAGE Actions have been registered for SDK S32K116_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.938
+!MESSAGE Actions have been registered for SDK S32K116_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.939
+!MESSAGE Actions have been registered for SDK S32K116_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.939
+!MESSAGE Actions have been registered for SDK S32K116_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.940
+!MESSAGE Actions have been registered for SDK S32K116_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.940
+!MESSAGE Actions have been registered for SDK S32K116_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.941
+!MESSAGE Actions have been registered for SDK S32K116_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.951
+!MESSAGE Actions have been registered for SDK S32K118_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.952
+!MESSAGE Actions have been registered for SDK S32K118_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.952
+!MESSAGE Actions have been registered for SDK S32K118_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.953
+!MESSAGE Actions have been registered for SDK S32K118_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.954
+!MESSAGE Actions have been registered for SDK S32K118_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.954
+!MESSAGE Actions have been registered for SDK S32K118_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.955
+!MESSAGE Actions have been registered for SDK S32K118_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.955
+!MESSAGE Actions have been registered for SDK S32K118_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.955
+!MESSAGE Actions have been registered for SDK S32K118_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.956
+!MESSAGE Actions have been registered for SDK S32K118_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.956
+!MESSAGE Actions have been registered for SDK S32K118_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.970
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.971
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.971
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.971
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.972
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.972
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.973
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.973
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.974
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.974
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.975
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:21.975
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.016
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.016
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.017
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.017
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.018
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.018
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.019
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.019
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.021
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.021
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.034
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.034
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.035
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.035
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.036
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.036
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.037
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.037
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.038
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.038
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.039
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.039
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.040
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.040
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.040
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.041
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.096
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.096
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.097
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.097
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.098
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.098
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.098
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.099
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.099
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.099
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.100
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.101
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.101
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.102
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.102
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.103
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.112
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.112
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.113
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.113
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.114
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.114
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.114
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.115
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.115
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.115
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.116
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.116
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.116
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.117
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.117
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.118
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.118
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.118
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.119
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.119
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.125
+!MESSAGE Actions have been registered for SDK FreeMaster_KEAxx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.125
+!MESSAGE Actions have been registered for SDK FreeMaster_KEAxx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.126
+!MESSAGE Actions have been registered for SDK FreeMaster_KEAxx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.126
+!MESSAGE Actions have been registered for SDK FreeMaster_KEAxx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.127
+!MESSAGE Actions have been registered for SDK FreeMaster_KEAxx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.127
+!MESSAGE Actions have been registered for SDK FreeMaster_KEAxx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.128
+!MESSAGE Actions have been registered for SDK FreeMaster_KEAxx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.128
+!MESSAGE Actions have been registered for SDK FreeMaster_KEAxx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.129
+!MESSAGE Actions have been registered for SDK FreeMaster_KEAxx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.129
+!MESSAGE Actions have been registered for SDK FreeMaster_KEAxx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.130
+!MESSAGE Actions have been registered for SDK FreeMaster_KEAxx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.130
+!MESSAGE Actions have been registered for SDK FreeMaster_KEAxx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.131
+!MESSAGE Actions have been registered for SDK FreeMaster_KEAxx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.139
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.140
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.140
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.141
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.141
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.141
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.142
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.142
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.142
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.143
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.143
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-08 17:39:22.144
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 1 0 2023-10-08 17:39:22.161
+!MESSAGE Load SDKs, sec.: 0.005
