@@ -1,0 +1,5 @@
+Perform common timed I/O functions with FTM: 
+• Module counter initialization 
+• Pulse Width Modulation 
+• Output Compare 
+• Input Capture 
