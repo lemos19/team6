@@ -122,4 +122,5 @@ typedef enum {
 #define FTM7 ((FTM_type*)(FTM7_BASE_ADDRESS))
 void FTM_init(Ftm_modul_t,Source_div1_t,preScale_fmt_t, uint32_t);
 void Start_counter_FTM0(void);
+void Disable_counter_FTM0(void);
 #endif

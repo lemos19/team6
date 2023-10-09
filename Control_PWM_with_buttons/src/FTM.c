@@ -49,3 +49,6 @@ void FTM_init(Ftm_modul_t modul,Source_div1_t source,preScale_fmt_t div,uint32_t
 void Start_counter_FTM0(void){
     FTM0->SC.Fields.CLKS = 3;
 }
+void Disable_counter_FTM0(void){
+    FTM0->SC.Fields.CLKS = 0;
+}
