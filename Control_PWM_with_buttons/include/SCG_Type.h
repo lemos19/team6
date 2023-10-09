@@ -30,7 +30,13 @@ typedef enum{
 	SIRCDIV2_CLK = 2,
 	FIRCDIV2_CLK = 3,
 	SPLLDIV2_CLK = 6
-}Source;
+}Source_div2_t;
+typedef enum{
+	SOSCDIV1_CLK = 1,
+	SIRCDIV1_CLK = 2,
+	FIRCDIV1_CLK = 3,
+	SPLLDIV1_CLK = 6
+}Source_div1_t;
 typedef enum{
 	FIRC,
 	SIRC,
@@ -127,7 +133,7 @@ typedef struct{
 	volatile DIV_t SCG_SPLLDIV;
 	volatile SPLL_cf SCG_SPLLCFG;
 }SCG_Type;
-void SCG_Asyn_Peripheral_Sources(Source,Divide_Options);
+void SCG_Asyn_Peripheral_Sources(Source_div2_t,Divide_Options);
 void Config_SOSC_CLK(void);
 void Config_SPLL_CLK(Clock_Source_t,PreDiv_SPLL,Multiply_SPLL);
 void Config_RCCR(Clock_Source_t,uint8_t,uint8_t,uint8_t);

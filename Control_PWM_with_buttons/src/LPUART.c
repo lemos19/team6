@@ -15,7 +15,7 @@ void Send_Message(char* mess){
 }
 static LPUART_Type* CHANEL[3] = {LPUART0,LPUART1,LPUART2};
 void Config_LPUART_Chanel(LPUART_Chanel Chanel,
-Source source,
+Source_div2_t source,
 uint16_t baud_rate_modulo_divisor,
 Oversampling_Ratio oversampling_ratio,
 StopBit_Num numS,

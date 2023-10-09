@@ -1,4 +1,4 @@
-17:33:25 **** Incremental Build of configuration Debug_FLASH for project Control_LED_with_buttons_and_linker ****
+13:15:16 **** Incremental Build of configuration Debug_FLASH for project Control_LED_with_buttons_and_linker ****
 make -j12 all 
 Invoking: Standard S32DS Print Size
 arm-none-eabi-size --format=berkeley Control_LED_with_buttons_and_linker.elf
@@ -7,5 +7,5 @@ arm-none-eabi-size --format=berkeley Control_LED_with_buttons_and_linker.elf
 Finished building: Control_LED_with_buttons_and_linker.siz
  
 
-17:33:26 Build Finished (took 951ms)
+13:15:16 Build Finished (took 489ms)
 

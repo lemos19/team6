@@ -30,7 +30,7 @@ typedef struct PCC_Type{
 	volatile uint32_t PCC_Reserved[2];
 	volatile uint32_t PCC_FlexCAN0;
 	volatile uint32_t PCC_FlexCAN1;
-	volatile uint32_t PCC_FTM3;
+	volatile LPIT_T PCC_FTM3;
 	volatile uint32_t PCC_ADC1;
 	volatile uint32_t PCC_Reserved1[3];
 	volatile uint32_t PCC_FlexCAN2;
@@ -43,9 +43,9 @@ typedef struct PCC_Type{
 	volatile uint32_t PCC_Reserved3[3];
 	volatile uint32_t PCC_PDB0;
 	volatile LPIT_T PCC_LPIT;
-	volatile uint32_t PCC_FTM0;
-	volatile uint32_t PCC_FTM1;
-	volatile uint32_t PCC_FTM2;
+	volatile LPIT_T PCC_FTM0;
+	volatile LPIT_T PCC_FTM1;
+	volatile LPIT_T PCC_FTM2;
 	volatile uint32_t PCC_ADC0;
 	volatile uint32_t PCC_Reserved4[1];
 	volatile uint32_t PCC_RTC;
@@ -72,10 +72,10 @@ typedef struct PCC_Type{
 	volatile LPIT_T PCC_LPUART1;
 	volatile LPIT_T PCC_LPUART2;
 	volatile uint32_t PCC_Reserved13;
-	volatile uint32_t PCC_FTM4;
-	volatile uint32_t PCC_FTM5;
-	volatile uint32_t PCC_FTM6;
-	volatile uint32_t PCC_FTM7;
+	volatile LPIT_T PCC_FTM4;
+	volatile LPIT_T PCC_FTM5;
+	volatile LPIT_T PCC_FTM6;
+	volatile LPIT_T PCC_FTM7;
 	volatile uint32_t PCC_Reserved14;
 	volatile uint32_t PCC_CMP0;
 	volatile uint32_t PCC_Reserved15[2];
@@ -83,8 +83,8 @@ typedef struct PCC_Type{
 	volatile uint32_t PCC_Reserved16[2];
 	volatile uint32_t PCC_ENET;
 }PCC_Type;
-void PCC_LPSPI_ClockSource(LPSPI_Chanel,Source);
-void PCC_LPIT_ClockSource(Source);
-void PCC_LPUART_ClockSource(LPUART_Chanel,Source);
+void PCC_LPSPI_ClockSource(LPSPI_Chanel,Source_div2_t);
+void PCC_LPIT_ClockSource(Source_div2_t);
+void PCC_LPUART_ClockSource(LPUART_Chanel,Source_div2_t);
 #define PCC ((PCC_Type*)(PCC_BASE_ADDRESS+0x80))
 #endif

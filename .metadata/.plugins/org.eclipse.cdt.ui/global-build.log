@@ -1,8 +1,26 @@
-17:33:25 **** Incremental Build of configuration Debug_FLASH for project Control_LED_with_buttons_and_linker ****
+13:58:17 **** Incremental Build of configuration Debug_FLASH for project Control_PWM_with_buttons ****
+make -j12 all 
+Building file: ../src/FTM.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@src/FTM.args" -MMD -MP -MF"src/FTM.d" -MT"src/FTM.o" -o "src/FTM.o" "../src/FTM.c"
+Finished building: ../src/FTM.c
+ 
+Building target: Control_PWM_with_buttons.elf
+Invoking: Standard S32DS C Linker
+arm-none-eabi-gcc -o "Control_PWM_with_buttons.elf" "@Control_PWM_with_buttons.args"   
+Finished building target: Control_PWM_with_buttons.elf
+ 
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley Control_PWM_with_buttons.elf
+   text	   data	    bss	    dec	    hex	filename
+   6492	   1128	   3120	  10740	   29f4	Control_PWM_with_buttons.elf
+Finished building: Control_PWM_with_buttons.siz
+ 
+13:58:22 **** Incremental Build of configuration Debug_FLASH for project Control_PWM_with_buttons ****
 make -j12 all 
 Invoking: Standard S32DS Print Size
-arm-none-eabi-size --format=berkeley Control_LED_with_buttons_and_linker.elf
+arm-none-eabi-size --format=berkeley Control_PWM_with_buttons.elf
    text	   data	    bss	    dec	    hex	filename
-  21864	   2516	   3208	  27588	   6bc4	Control_LED_with_buttons_and_linker.elf
-Finished building: Control_LED_with_buttons_and_linker.siz
+   6492	   1128	   3120	  10740	   29f4	Control_PWM_with_buttons.elf
+Finished building: Control_PWM_with_buttons.siz
  

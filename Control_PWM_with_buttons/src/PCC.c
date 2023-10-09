@@ -1,10 +1,10 @@
 #include "PCC_Type.h"
 #include "General.h"
-void PCC_LPIT_ClockSource(Source source){
+void PCC_LPIT_ClockSource(Source_div2_t source){
 	PCC->PCC_LPIT.Fields.PCS = source;
 	PCC->PCC_LPIT.Fields.CGC = Enable;
 }
-void PCC_LPUART_ClockSource(LPUART_Chanel ch,Source source){
+void PCC_LPUART_ClockSource(LPUART_Chanel ch,Source_div2_t source){
 	switch (ch){
 	case CHN0:
 		PCC->PCC_LPUART0.Fields.PCS = source;
@@ -20,7 +20,7 @@ void PCC_LPUART_ClockSource(LPUART_Chanel ch,Source source){
 		break;
 	}
 }
-void PCC_LPSPI_ClockSource(LPSPI_Chanel chanel,Source source){
+void PCC_LPSPI_ClockSource(LPSPI_Chanel chanel,Source_div2_t source){
 	switch (chanel){
 	case LPSPI_Chanel0:
 		PCC->PCC_LPSPI0.Fields.PCS = source;

@@ -5,7 +5,7 @@ static LPSPI_Type *Chanel[3] = {LPSPI0, LPSPI1, LPSPI2};
 void Config_LPSPI_Chanel
 (
     LPSPI_Chanel chanel,  
-    Source source,
+    Source_div2_t source,
     PRESCALE_devide div,
     CPOL cpol,
     CPHA cpha,
