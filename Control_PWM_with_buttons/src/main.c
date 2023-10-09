@@ -46,7 +46,7 @@ int main(void)
 	);
 	FTM0->CnSC_And_CnV[1].CnV = 31250; /*duti cricle*/
 	PORTD->PORT_PCR[16].Fields.MUX = 2; /*FTM0 chanel 1*/
-	Start_counter_FTM0();
+	Start_counter_FTM0(); /*shdaosdhasoidasid*/
 	
 	Config_LPIT_Chanel
 	(
