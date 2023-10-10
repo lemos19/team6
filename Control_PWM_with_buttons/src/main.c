@@ -113,7 +113,7 @@ void LPUART1_RxTx_IRQHandler(void)
 		buffer[buffer_index] = '\0';
 		if (!(strcmp("SW2", buffer)))
 		{
-			/*nothing*/
+			/*nothing*/   //hehehehe//
 		}
 		else if (!(strcmp("SW3", buffer)))
 		{
