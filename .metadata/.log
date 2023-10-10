@@ -15795,3 +15795,1245 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY com.freescale.s32ds.cross.sdk.support 1 0 2023-10-09 16:45:23.211
 !MESSAGE Load SDKs, sec.: 0.006
+!SESSION 2023-10-10 08:13:20.137 -----------------------------------------------
+eclipse.buildId=2.0.0.202001161704
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-10 08:13:38.100
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ASUS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.066
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.066
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.067
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.067
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.068
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.068
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.069
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.069
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.070
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.071
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.115
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.115
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.115
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.116
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.116
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.117
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.117
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.118
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.118
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.119
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.119
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.120
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.120
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.121
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.121
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.121
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.151
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.27_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.152
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.27_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.153
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.27_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.153
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.27_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.153
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.27_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.154
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.27_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.154
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.27_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.155
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.27_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.155
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.27_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.157
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.27_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.157
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.27_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.189
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.189
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.189
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.190
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.190
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.191
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.192
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.192
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.192
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.193
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.194
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.194
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.219
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.220
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.220
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.221
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.221
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.221
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.222
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.222
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.223
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.223
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.258
+!MESSAGE Actions have been registered for SDK S32K144_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.258
+!MESSAGE Actions have been registered for SDK S32K144_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.259
+!MESSAGE Actions have been registered for SDK S32K144_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.260
+!MESSAGE Actions have been registered for SDK S32K144_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.260
+!MESSAGE Actions have been registered for SDK S32K144_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.261
+!MESSAGE Actions have been registered for SDK S32K144_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.261
+!MESSAGE Actions have been registered for SDK S32K144_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.262
+!MESSAGE Actions have been registered for SDK S32K144_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.262
+!MESSAGE Actions have been registered for SDK S32K144_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.262
+!MESSAGE Actions have been registered for SDK S32K144_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.263
+!MESSAGE Actions have been registered for SDK S32K144_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.273
+!MESSAGE Actions have been registered for SDK S32K142_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.273
+!MESSAGE Actions have been registered for SDK S32K142_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.274
+!MESSAGE Actions have been registered for SDK S32K142_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.274
+!MESSAGE Actions have been registered for SDK S32K142_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.275
+!MESSAGE Actions have been registered for SDK S32K142_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.275
+!MESSAGE Actions have been registered for SDK S32K142_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.276
+!MESSAGE Actions have been registered for SDK S32K142_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.277
+!MESSAGE Actions have been registered for SDK S32K142_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.277
+!MESSAGE Actions have been registered for SDK S32K142_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.278
+!MESSAGE Actions have been registered for SDK S32K142_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.278
+!MESSAGE Actions have been registered for SDK S32K142_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.289
+!MESSAGE Actions have been registered for SDK S32K146_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.289
+!MESSAGE Actions have been registered for SDK S32K146_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.290
+!MESSAGE Actions have been registered for SDK S32K146_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.290
+!MESSAGE Actions have been registered for SDK S32K146_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.291
+!MESSAGE Actions have been registered for SDK S32K146_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.291
+!MESSAGE Actions have been registered for SDK S32K146_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.292
+!MESSAGE Actions have been registered for SDK S32K146_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.292
+!MESSAGE Actions have been registered for SDK S32K146_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.292
+!MESSAGE Actions have been registered for SDK S32K146_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.293
+!MESSAGE Actions have been registered for SDK S32K146_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.293
+!MESSAGE Actions have been registered for SDK S32K146_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.303
+!MESSAGE Actions have been registered for SDK S32K148_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.303
+!MESSAGE Actions have been registered for SDK S32K148_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.304
+!MESSAGE Actions have been registered for SDK S32K148_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.305
+!MESSAGE Actions have been registered for SDK S32K148_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.305
+!MESSAGE Actions have been registered for SDK S32K148_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.306
+!MESSAGE Actions have been registered for SDK S32K148_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.306
+!MESSAGE Actions have been registered for SDK S32K148_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.307
+!MESSAGE Actions have been registered for SDK S32K148_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.307
+!MESSAGE Actions have been registered for SDK S32K148_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.307
+!MESSAGE Actions have been registered for SDK S32K148_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.308
+!MESSAGE Actions have been registered for SDK S32K148_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.317
+!MESSAGE Actions have been registered for SDK S32K116_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.318
+!MESSAGE Actions have been registered for SDK S32K116_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.318
+!MESSAGE Actions have been registered for SDK S32K116_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.318
+!MESSAGE Actions have been registered for SDK S32K116_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.319
+!MESSAGE Actions have been registered for SDK S32K116_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.319
+!MESSAGE Actions have been registered for SDK S32K116_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.320
+!MESSAGE Actions have been registered for SDK S32K116_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.320
+!MESSAGE Actions have been registered for SDK S32K116_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.321
+!MESSAGE Actions have been registered for SDK S32K116_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.321
+!MESSAGE Actions have been registered for SDK S32K116_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.322
+!MESSAGE Actions have been registered for SDK S32K116_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.330
+!MESSAGE Actions have been registered for SDK S32K118_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.330
+!MESSAGE Actions have been registered for SDK S32K118_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.331
+!MESSAGE Actions have been registered for SDK S32K118_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.331
+!MESSAGE Actions have been registered for SDK S32K118_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.332
+!MESSAGE Actions have been registered for SDK S32K118_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.332
+!MESSAGE Actions have been registered for SDK S32K118_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.332
+!MESSAGE Actions have been registered for SDK S32K118_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.333
+!MESSAGE Actions have been registered for SDK S32K118_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.333
+!MESSAGE Actions have been registered for SDK S32K118_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.334
+!MESSAGE Actions have been registered for SDK S32K118_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.334
+!MESSAGE Actions have been registered for SDK S32K118_SDK_3.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.359
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.360
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.360
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.361
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.361
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.362
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.362
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.362
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.363
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.363
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.363
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.364
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.388
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.389
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.389
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.389
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.390
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.390
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.391
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.391
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.392
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.392
+!MESSAGE Actions have been registered for SDK KEAx_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.417
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.418
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.418
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.419
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.419
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.419
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.420
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.420
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.421
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.421
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.422
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.422
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.423
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.424
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.424
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.425
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.18_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.516
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.516
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.517
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.517
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.517
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.518
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.519
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.519
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.519
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.520
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.520
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.520
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.521
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.521
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.522
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.522
+!MESSAGE Actions have been registered for SDK S32K14x_AMMCLIB_1.1.19_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.539
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.539
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.540
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.540
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.541
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.541
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.542
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.542
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.543
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.543
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.544
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.544
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.545
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.545
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.545
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.546
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.546
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.547
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.547
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.548
+!MESSAGE Actions have been registered for SDK FreeMaster_S32xx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.560
+!MESSAGE Actions have been registered for SDK FreeMaster_KEAxx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.560
+!MESSAGE Actions have been registered for SDK FreeMaster_KEAxx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.560
+!MESSAGE Actions have been registered for SDK FreeMaster_KEAxx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.561
+!MESSAGE Actions have been registered for SDK FreeMaster_KEAxx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.561
+!MESSAGE Actions have been registered for SDK FreeMaster_KEAxx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.562
+!MESSAGE Actions have been registered for SDK FreeMaster_KEAxx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.562
+!MESSAGE Actions have been registered for SDK FreeMaster_KEAxx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.562
+!MESSAGE Actions have been registered for SDK FreeMaster_KEAxx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.563
+!MESSAGE Actions have been registered for SDK FreeMaster_KEAxx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.563
+!MESSAGE Actions have been registered for SDK FreeMaster_KEAxx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.564
+!MESSAGE Actions have been registered for SDK FreeMaster_KEAxx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.564
+!MESSAGE Actions have been registered for SDK FreeMaster_KEAxx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.564
+!MESSAGE Actions have been registered for SDK FreeMaster_KEAxx_2.0.0_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.593
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.594
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.594
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.594
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.595
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.595
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.596
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.596
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.597
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.598
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.599
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 0 0 2023-10-10 08:13:40.599
+!MESSAGE Actions have been registered for SDK S32K11x_AMMCLIB_1.1.20_PATH.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 1 0 2023-10-10 08:13:40.622
+!MESSAGE Load SDKs, sec.: 0.01
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-10-10 08:46:26.179
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-10-10 08:46:26.180
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 08:48:27.888
+!MESSAGE Request for monitor: '42^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 08:48:27.888
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 08:48:42.360
+!MESSAGE Request for monitor: '*running,thread-id="all"
+*stopped,reason="end-stepping-range",frame={addr="0x00002296",func="PORTC_IRQHandler",args=[],file="../src/main.c",fullname="C:\Users\ASUS\Documents\testing_0\Control_PWM_with_buttons\src\main.c",line="88"},thread-id="1",stopped-threads="all"
+50^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 08:48:42.360
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 08:48:42.949
+!MESSAGE Request for monitor: '*running,thread-id="all"
+*stopped,reason="end-stepping-range",frame={addr="0x000022a0",func="PORTC_IRQHandler",args=[],file="../src/main.c",fullname="C:\Users\ASUS\Documents\testing_0\Control_PWM_with_buttons\src\main.c",line="90"},thread-id="1",stopped-threads="all"
+58^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 08:48:42.949
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 08:48:43.538
+!MESSAGE Request for monitor: '*running,thread-id="all"
+*stopped,reason="end-stepping-range",frame={addr="0x000021da",func="main",args=[],file="../src/main.c",fullname="C:\Users\ASUS\Documents\testing_0\Control_PWM_with_buttons\src\main.c",line="62"},thread-id="1",stopped-threads="all"
+66^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 08:48:43.538
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 08:48:46.026
+!MESSAGE Request for monitor: '75^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 08:48:46.026
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2023-10-10 08:48:59.843
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2023-10-10 08:49:00.914
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 08:49:27.319
+!MESSAGE Request for monitor: '48^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 08:49:27.319
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 08:49:44.268
+!MESSAGE Request for monitor: '*running,thread-id="all"
+*stopped,reason="end-stepping-range",frame={addr="0x00002296",func="PORTC_IRQHandler",args=[],file="../src/main.c",fullname="C:\Users\ASUS\Documents\testing_0\Control_PWM_with_buttons\src\main.c",line="88"},thread-id="1",stopped-threads="all"
+56^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 08:49:44.268
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 08:49:44.901
+!MESSAGE Request for monitor: '*running,thread-id="all"
+*stopped,reason="end-stepping-range",frame={addr="0x000022a0",func="PORTC_IRQHandler",args=[],file="../src/main.c",fullname="C:\Users\ASUS\Documents\testing_0\Control_PWM_with_buttons\src\main.c",line="90"},thread-id="1",stopped-threads="all"
+64^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 08:49:44.901
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 08:52:20.664
+!MESSAGE Request for monitor: '43^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 08:52:20.664
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 08:52:44.492
+!MESSAGE Request for monitor: '43^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 08:52:44.492
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 08:52:47.479
+!MESSAGE Request for monitor: '*running,thread-id="all"
+*stopped,reason="end-stepping-range",frame={addr="0x00002296",func="PORTC_IRQHandler",args=[],file="../src/main.c",fullname="C:\Users\ASUS\Documents\testing_0\Control_PWM_with_buttons\src\main.c",line="88"},thread-id="1",stopped-threads="all"
+51^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 08:52:47.479
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 08:52:52.077
+!MESSAGE Request for monitor: '*running,thread-id="all"
+*stopped,reason="end-stepping-range",frame={addr="0x000022a0",func="PORTC_IRQHandler",args=[],file="../src/main.c",fullname="C:\Users\ASUS\Documents\testing_0\Control_PWM_with_buttons\src\main.c",line="90"},thread-id="1",stopped-threads="all"
+59^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 08:52:52.077
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2023-10-10 09:04:48.896
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2023-10-10 09:04:50.010
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2023-10-10 09:05:07.393
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2023-10-10 09:05:08.484
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2023-10-10 09:05:56.978
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2023-10-10 09:05:58.060
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 09:06:04.980
+!MESSAGE Request for monitor: '48^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 09:06:04.980
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2023-10-10 09:06:41.972
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2023-10-10 09:06:43.061
+!MESSAGE Endianness was never initialized!
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 09:08:51.557
+!MESSAGE Request for monitor: '43^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 09:08:51.557
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 09:09:10.937
+!MESSAGE Request for monitor: '52^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 09:09:10.937
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 09:15:33.690
+!MESSAGE Request for monitor: '44^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 09:15:33.690
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 09:16:21.672
+!MESSAGE Request for monitor: '43^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 09:16:21.672
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 09:17:08.485
+!MESSAGE Request for monitor: '52^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 09:17:08.485
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 09:17:55.059
+!MESSAGE Request for monitor: '61^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 09:17:55.059
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 09:18:39.523
+!MESSAGE Request for monitor: '70^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 09:18:39.523
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 09:19:19.842
+!MESSAGE Request for monitor: '79^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 09:19:19.842
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 09:19:29.494
+!MESSAGE Request for monitor: '88^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 09:19:29.494
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 09:19:50.278
+!MESSAGE Request for monitor: '97^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 09:19:50.278
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 09:20:19.249
+!MESSAGE Request for monitor: '106^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 09:20:19.249
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 09:20:25.642
+!MESSAGE Request for monitor: '115^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 09:20:25.642
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 09:20:33.876
+!MESSAGE Request for monitor: '124^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 09:20:33.876
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 09:20:44.683
+!MESSAGE Request for monitor: '133^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 09:20:44.683
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 09:20:59.794
+!MESSAGE Request for monitor: '142^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 09:20:59.794
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 09:25:52.729
+!MESSAGE Request for monitor: '43^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 09:25:52.729
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 09:29:51.388
+!MESSAGE Request for monitor: '44^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 09:29:51.388
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 09:30:18.992
+!MESSAGE Request for monitor: '43^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 09:30:18.992
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 09:30:52.594
+!MESSAGE Request for monitor: '52^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 09:30:52.594
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 09:31:01.063
+!MESSAGE Request for monitor: '61^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 09:31:01.063
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 09:31:28.242
+!MESSAGE Request for monitor: '43^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 09:31:28.242
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 09:31:38.590
+!MESSAGE Request for monitor: '52^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 09:31:38.590
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 09:31:45.678
+!MESSAGE Request for monitor: '61^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 09:31:45.678
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 09:31:56.654
+!MESSAGE Request for monitor: '70^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 09:31:56.654
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 09:32:11.792
+!MESSAGE Request for monitor: '79^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 09:32:11.792
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 09:32:17.457
+!MESSAGE Request for monitor: '88^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 09:32:17.457
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 09:32:26.618
+!MESSAGE Request for monitor: '97^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 09:32:26.618
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 09:32:32.965
+!MESSAGE Request for monitor: '106^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 09:32:32.965
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-10-10 09:32:46.412
+!MESSAGE Request for monitor: '115^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-10-10 09:32:46.412
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)

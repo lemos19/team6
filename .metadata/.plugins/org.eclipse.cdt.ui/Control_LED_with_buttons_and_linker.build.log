@@ -1,15 +1,5 @@
-15:01:29 **** Incremental Build of configuration Debug_FLASH for project Control_LED_with_buttons_and_linker ****
+09:31:15 **** Incremental Build of configuration Debug_FLASH for project Control_LED_with_buttons_and_linker ****
 make -j12 all 
-Building file: ../src/main.c
-Invoking: Standard S32DS C Compiler
-arm-none-eabi-gcc "@src/LPIT.args" -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
-Finished building: ../src/main.c
- 
-Building target: Control_LED_with_buttons_and_linker.elf
-Invoking: Standard S32DS C Linker
-arm-none-eabi-gcc -o "Control_LED_with_buttons_and_linker.elf" "@Control_LED_with_buttons_and_linker.args"   
-Finished building target: Control_LED_with_buttons_and_linker.elf
- 
 Invoking: Standard S32DS Print Size
 arm-none-eabi-size --format=berkeley Control_LED_with_buttons_and_linker.elf
    text	   data	    bss	    dec	    hex	filename
@@ -17,5 +7,5 @@ arm-none-eabi-size --format=berkeley Control_LED_with_buttons_and_linker.elf
 Finished building: Control_LED_with_buttons_and_linker.siz
  
 
-15:01:30 Build Finished (took 1s.16ms)
+09:31:15 Build Finished (took 177ms)
 

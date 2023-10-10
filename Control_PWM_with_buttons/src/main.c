@@ -17,6 +17,7 @@ void PORTC_IRQHandler(void);
 void LPUART1_RxTx_IRQHandler(void);
 uint32_t Duti_cricle = 125;
 uint8_t SendMessage_Command = Disable;
+static char message[30];
 static char arr[] = "hello world!!\n";
 int main(void)
 {
@@ -61,25 +62,46 @@ int main(void)
 		if (SendMessage_Command)
 		{
 			SendMessage_Command = Disable;
+			sprintf(message, "Counter value: %d\n", 250/Duti_cricle);
+			Send_Message(&message[0]);
 		}
 	}
 }
 
 void PORTC_IRQHandler(void)
 {
+	SendMessage_Command = Enable;
 	if (FLAG_FROM_PTC(12))
 	{
 		CLEAR_FLAG_PTC(12)
-		Duti_cricle += 25;
-		FTM0->CnSC_And_CnV[1].CnV = Duti_cricle;
-		SendMessage_Command = Enable;
+		if (Duti_cricle < 250)
+		{
+			Duti_cricle += 25;
+			FTM0->CnSC_And_CnV[1].CnV = Duti_cricle;
+		}
 	}
 	else if (FLAG_FROM_PTC(13))
 	{
 		CLEAR_FLAG_PTC(13)
-		Duti_cricle -= 25;
+		if (Duti_cricle > 0)
+		{
+			Duti_cricle -= 25;
+			FTM0->CnSC_And_CnV[1].CnV = Duti_cricle;
+		}
+	}
+	else if (FLAG_FROM_PTC(15))
+	{
+		CLEAR_FLAG_PTC(15)
+		if (FTM0->SC.Fields.PS == Div_16)
+		{
+			FTM0->SC.Fields.PS == Div_8;
+		}
+		else
+		{
+			FTM0->SC.Fields.PS == Div_16;
+		}
+		Duti_cricle = 125;
 		FTM0->CnSC_And_CnV[1].CnV = Duti_cricle;
-		SendMessage_Command = Enable;
 	}
 }
 
@@ -91,10 +113,11 @@ void LPUART1_RxTx_IRQHandler(void)
 		buffer[buffer_index] = '\0';
 		if (!(strcmp("SW2", buffer)))
 		{
-
+			/*nothing*/
 		}
 		else if (!(strcmp("SW3", buffer)))
 		{
+			/*nothing*/
 		}
 		buffer_index = -1;
 	}

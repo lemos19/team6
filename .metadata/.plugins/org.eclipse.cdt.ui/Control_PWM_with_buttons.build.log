@@ -1,26 +1,11 @@
-16:45:35 **** Incremental Build of configuration Debug_FLASH for project Control_PWM_with_buttons ****
+09:31:18 **** Incremental Build of configuration Debug_FLASH for project Control_PWM_with_buttons ****
 make -j12 all 
-Building file: ../src/FTM.c
-Building file: ../src/main.c
-Invoking: Standard S32DS C Compiler
-arm-none-eabi-gcc "@src/FTM.args" -MMD -MP -MF"src/FTM.d" -MT"src/FTM.o" -o "src/FTM.o" "../src/FTM.c"
-Invoking: Standard S32DS C Compiler
-arm-none-eabi-gcc "@src/FTM.args" -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
-Finished building: ../src/FTM.c
-Finished building: ../src/main.c
- 
- 
-Building target: Control_PWM_with_buttons.elf
-Invoking: Standard S32DS C Linker
-arm-none-eabi-gcc -o "Control_PWM_with_buttons.elf" "@Control_PWM_with_buttons.args"   
-Finished building target: Control_PWM_with_buttons.elf
- 
 Invoking: Standard S32DS Print Size
 arm-none-eabi-size --format=berkeley Control_PWM_with_buttons.elf
    text	   data	    bss	    dec	    hex	filename
-   6180	   1128	   3120	  10428	   28bc	Control_PWM_with_buttons.elf
+  21840	   2540	   3208	  27588	   6bc4	Control_PWM_with_buttons.elf
 Finished building: Control_PWM_with_buttons.siz
  
 
-16:45:36 Build Finished (took 696ms)
+09:31:18 Build Finished (took 181ms)
 
