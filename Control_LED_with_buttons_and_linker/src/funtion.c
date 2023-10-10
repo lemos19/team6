@@ -6,12 +6,12 @@ void initializeGPIOandSystick(void){
 	/* muxing pin to GPIO each pin have 1 resigter (PORT_PCR[pin])
 	+PortD: pin 0,15,16 
 	+PortC: pin 12,13 */ //filter turn on bit 4
-	PORTD->PORT_PCR[0].Fields.MUX=1;
+	PORTD->PORT_PCR[00].Fields.MUX=1;
 	PORTD->PORT_PCR[15].Fields.MUX=1; 
 	PORTD->PORT_PCR[16].Fields.MUX=1;
 	
 	PORTC->PORT_PCR[12].Fields.MUX=1; PORTC->PORT_PCR[12].Fields.PFE=Enable;
-	PORTC->PORT_PCR[13].Fields.MUX=1; PORTC->PORT_PCR[12].Fields.PFE=Enable;
+	PORTC->PORT_PCR[13].Fields.MUX=1; PORTC->PORT_PCR[13].Fields.PFE=Enable;
 	/* config data direction for pin (PDDR)(1 resigter 32 bit config 32 pin)
 	+PortD: pin 0,15,16 out put (bit = 1)
 	+PortC: pin 12,13 input     (bit = 0) */
@@ -22,7 +22,7 @@ void initializeGPIOandSystick(void){
 	//PDOR 1: led off, 0:led on
 	GPIOD->GPIO_PDOR = SET_BIT(GPIOD->GPIO_PDOR,0)|SET_BIT(GPIOD->GPIO_PDOR,15)|SET_BIT(GPIOD->GPIO_PDOR,16);
 	// configure rising edge for interrupt sensitive
-	PORTC->PORT_PCR[12].Fields.IRQC = 9;//configure rising edge for pin 12
+	PORTC->PORT_PCR[12].Fields.IRQC = 9;  //configure rising edge for pin 12
 	PORTC->PORT_PCR[13].Fields.IRQC = 11; //configure rising edge for pin 13
 	//PORTC->PORT_PCR[12]= SET_VALUE_CONTIGUOUS(PORTC->PORT_PCR[12],4,16,0xC); //configure logic 1 for pin 12
 	//PORTC->PORT_PCR[13]= SET_VALUE_CONTIGUOUS(PORTC->PORT_PCR[13],4,16,0xC); //configure logic 1 for pin 13

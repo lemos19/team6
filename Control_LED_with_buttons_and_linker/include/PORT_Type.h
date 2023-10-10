@@ -13,20 +13,20 @@ typedef union{
 	uint32_t Register;
 	struct 
 	{
-		uint32_t PS : 1;
-		uint32_t PE : 1 ;
-		uint32_t reserved0 : 2;
-		uint32_t PFE : 1;
-		uint32_t reserved1 : 1;
-		uint32_t DSE : 1;
-		uint32_t reserved2 : 1;
-		uint32_t MUX : 3;
-		uint32_t reserved3 : 4;
-		uint32_t LK : 1;
-		uint32_t IRQC : 4;
-		uint32_t reserved4 : 4;
-		uint32_t ISF : 1;
-		uint32_t reserved5 : 7;
+		uint32_t PS 		: 1;
+		uint32_t PE 		: 1;
+		uint32_t reserved0 	: 2;
+		uint32_t PFE 		: 1;
+		uint32_t reserved1 	: 1;
+		uint32_t DSE 		: 1;
+		uint32_t reserved2 	: 1;
+		uint32_t MUX 		: 3;
+		uint32_t reserved3 	: 4;
+		uint32_t LK 		: 1;
+		uint32_t IRQC 		: 4;
+		uint32_t reserved4	: 4;
+		uint32_t ISF 		: 1;
+		uint32_t reserved5 	: 7;
 	}Fields;
 }Port_PCR;
 #define PORTA_ADDRESS 0x40049000
