@@ -62,7 +62,7 @@ int main(void)
 		if (SendMessage_Command)
 		{
 			SendMessage_Command = Disable;
-			sprintf(message, "Counter value: %d\n", 250/Duti_cricle);
+			sprintf(message, "Counter value: %d\n", Duti_cricle/25);
 			Send_Message(&message[0]);
 		}
 	}
