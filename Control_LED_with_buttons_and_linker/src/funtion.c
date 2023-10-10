@@ -11,7 +11,7 @@ void initializeGPIOandSystick(void){
 	PORTD->PORT_PCR[16].Fields.MUX=1;
 	
 	PORTC->PORT_PCR[12].Fields.MUX=1; PORTC->PORT_PCR[12].Fields.PFE=Enable;
-	PORTC->PORT_PCR[13].Fields.MUX=1; PORTC->PORT_PCR[12].Fields.PFE=Enable;
+	PORTC->PORT_PCR[13].Fields.MUX=1; PORTC->PORT_PCR[13].Fields.PFE=Enable;
 	/* config data direction for pin (PDDR)(1 resigter 32 bit config 32 pin)
 	+PortD: pin 0,15,16 out put (bit = 1)
 	+PortC: pin 12,13 input     (bit = 0) */
