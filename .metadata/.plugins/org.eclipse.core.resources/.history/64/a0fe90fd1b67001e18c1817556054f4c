@@ -94,11 +94,11 @@ void PORTC_IRQHandler(void)
 		CLEAR_FLAG_PTC(15)
 		if (FTM0->SC.Fields.PS == Div_16)
 		{
-			FTM0->SC.Fields.PS = Div_8;
+			FTM0->SC.Fields.PS == Div_8;
 		}
 		else
 		{
-			FTM0->SC.Fields.PS = Div_16;
+			FTM0->SC.Fields.PS == Div_16;
 		}
 		Duti_cricle = 125;
 		FTM0->CnSC_And_CnV[1].CnV = Duti_cricle;
