@@ -74,7 +74,6 @@ int main(void)
 		timeValue	  /*reset value*/
 	);
 	Config_LPIT_Chanel(LPIT_Chanel1, SOSCDIV2_CLK, Enable, 92800);
-	Config_LPIT_Chanel(LPIT_Chanel2, SOSCDIV2_CLK, Enable, timeValue);
 
 	Config_LPUART_Chanel(
 		CHN1,
@@ -126,10 +125,6 @@ void LPIT0_Ch1_IRQHandler(void)
 {
 	CLEAR_FLAG_LPIT_CHANEL(1)
 	sendCommand = Enable;
-}
-void LPIT0_Ch2_IRQHandler(void)
-{
-	CLEAR_FLAG_LPIT_CHANEL(2)
 }
 void PORTC_IRQHandler(void)
 {

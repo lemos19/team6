@@ -1,4 +1,4 @@
-10:20:42 **** Incremental Build of configuration Debug_FLASH for project Control_PWM_with_buttons ****
+09:32:51 **** Incremental Build of configuration Debug_FLASH for project Control_PWM_with_buttons ****
 make -j12 all 
 Invoking: Standard S32DS Print Size
 arm-none-eabi-size --format=berkeley Control_PWM_with_buttons.elf
@@ -7,5 +7,5 @@ arm-none-eabi-size --format=berkeley Control_PWM_with_buttons.elf
 Finished building: Control_PWM_with_buttons.siz
  
 
-10:20:43 Build Finished (took 227ms)
+09:32:51 Build Finished (took 230ms)
 

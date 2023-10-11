@@ -7,5 +7,5 @@ org.eclipse.launchbar.core.descriptorType.default\:Assignments_for_basic_embedde
 org.eclipse.launchbar.core.descriptorType.default\:Assignments_for_basic_embedded_Debug_FLASH_PNE/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:Assignments_for_basic_embedded_Debug_FLASH_PNE/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:Control_LED_with_buttons_and_linker_Debug_FLASH_PNE/activeLaunchMode=flash
-org.eclipse.launchbar.core.descriptorType.default\:Control_PWM_with_buttons_Debug_FLASH_PNE/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:Control_PWM_with_buttons_Debug_FLASH_PNE/activeLaunchMode=flash
 org.eclipse.launchbar.core.descriptorType.default\:Control_PWM_with_buttons_Debug_RAM_PNE/activeLaunchMode=debug

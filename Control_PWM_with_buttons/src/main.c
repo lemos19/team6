@@ -33,7 +33,7 @@ int main(void)
 		FTM_0,
 		SOSCDIV1_CLK,
 		Div_16,
-		250-1 		/* modulo value --- clockout = clockin/(pre scale*modulo) */
+		249 		/* modulo value --- clockout = clockin/(pre scale*modulo) */
 	);
 	FTM0->CnSC_And_CnV[1].CnV = Duti_cricle; /*duti cricle*/
 	PORTD->PORT_PCR[16].Fields.MUX = 2; /*FTM0 chanel 1*/
@@ -113,7 +113,7 @@ void LPUART1_RxTx_IRQHandler(void)
 		buffer[buffer_index] = '\0';
 		if (!(strcmp("SW2", buffer)))
 		{
-			/*nothing*/   //hehehehe//
+			/*nothing*/   
 		}
 		else if (!(strcmp("SW3", buffer)))
 		{
