@@ -140,11 +140,7 @@ void PORTC_IRQHandler(void)
 		CLEAR_FLAG_PTC(13)
 		if (STATUS_LPIT_CHANEL0 == Disable)
 		{
-			if (counter==1)
-			{
-				/* do something */
-			}
-			else
+			if (counter!=1)
 			{
 				counter--;
 				timeValue -= 12500;
