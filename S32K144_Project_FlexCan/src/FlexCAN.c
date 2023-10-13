@@ -124,7 +124,6 @@ void FLEXCAN0_transmit_msg(void)
                                                 /* RTR = 0: data, not remote tx request frame	*/
                                                 /* DLC = 8 bytes 								*/
 }
-
 void FLEXCAN0_receive_msg(void)
 {
 /*! Receive msg from ID 0x556 using msg buffer 4

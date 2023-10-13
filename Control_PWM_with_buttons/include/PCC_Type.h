@@ -9,6 +9,7 @@ typedef enum{
 	CHN1,
 	CHN2
 }LPUART_Chanel;
+#define CGC_SHIFT 30
 typedef enum{
     LPSPI_Chanel0,
     LPSPI_Chanel1,
