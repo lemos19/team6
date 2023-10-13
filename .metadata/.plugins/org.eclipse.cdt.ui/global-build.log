@@ -1,17 +1,8 @@
-09:32:45 **** Incremental Build of configuration Debug_FLASH for project Control_PWM_with_buttons ****
+13:48:19 **** Incremental Build of configuration Debug_FLASH for project Control_PWM_with_buttons ****
 make -j12 all 
 Building file: ../src/main.c
 Invoking: Standard S32DS C Compiler
 arm-none-eabi-gcc "@src/FTM.args" -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
-../src/main.c: In function 'main':
-../src/main.c:65:4: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
-    sprintf(message, "Counter value: %d\n", Duti_cricle/25);
-    ^~~~~~~
-../src/main.c:65:4: warning: incompatible implicit declaration of built-in function 'sprintf'
-../src/main.c:65:4: note: include '<stdio.h>' or provide a declaration of 'sprintf'
-../src/main.c:65:38: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long unsigned int' [-Wformat=]
-    sprintf(message, "Counter value: %d\n", Duti_cricle/25);
-                                      ^
 Finished building: ../src/main.c
  
 Building target: Control_PWM_with_buttons.elf
@@ -19,14 +10,6 @@ Invoking: Standard S32DS C Linker
 arm-none-eabi-gcc -o "Control_PWM_with_buttons.elf" "@Control_PWM_with_buttons.args"   
 Finished building target: Control_PWM_with_buttons.elf
  
-Invoking: Standard S32DS Print Size
-arm-none-eabi-size --format=berkeley Control_PWM_with_buttons.elf
-   text	   data	    bss	    dec	    hex	filename
-  21920	   2540	   3208	  27668	   6c14	Control_PWM_with_buttons.elf
-Finished building: Control_PWM_with_buttons.siz
- 
-09:32:51 **** Incremental Build of configuration Debug_FLASH for project Control_PWM_with_buttons ****
-make -j12 all 
 Invoking: Standard S32DS Print Size
 arm-none-eabi-size --format=berkeley Control_PWM_with_buttons.elf
    text	   data	    bss	    dec	    hex	filename

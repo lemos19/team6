@@ -1,11 +1,26 @@
-09:31:15 **** Incremental Build of configuration Debug_FLASH for project Control_LED_with_buttons_and_linker ****
+13:42:25 **** Incremental Build of configuration Debug_FLASH for project Control_LED_with_buttons_and_linker ****
 make -j12 all 
+Building file: ../src/funtion.c
+Invoking: Standard S32DS C Compiler
+Building file: ../src/main.c
+arm-none-eabi-gcc "@src/LPIT.args" -MMD -MP -MF"src/funtion.d" -MT"src/funtion.o" -o "src/funtion.o" "../src/funtion.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@src/LPIT.args" -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/funtion.c
+ 
+Finished building: ../src/main.c
+ 
+Building target: Control_LED_with_buttons_and_linker.elf
+Invoking: Standard S32DS C Linker
+arm-none-eabi-gcc -o "Control_LED_with_buttons_and_linker.elf" "@Control_LED_with_buttons_and_linker.args"   
+Finished building target: Control_LED_with_buttons_and_linker.elf
+ 
 Invoking: Standard S32DS Print Size
 arm-none-eabi-size --format=berkeley Control_LED_with_buttons_and_linker.elf
    text	   data	    bss	    dec	    hex	filename
-  21864	   2516	   3208	  27588	   6bc4	Control_LED_with_buttons_and_linker.elf
+  21824	   2516	   3208	  27548	   6b9c	Control_LED_with_buttons_and_linker.elf
 Finished building: Control_LED_with_buttons_and_linker.siz
  
 
-09:31:15 Build Finished (took 177ms)
+13:42:26 Build Finished (took 959ms)
 

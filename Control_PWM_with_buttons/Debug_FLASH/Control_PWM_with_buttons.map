@@ -565,6 +565,17 @@ Discarded input sections
  .group         0x00000000        0x8 ./src/main.o
  .group         0x00000000        0x8 ./src/main.o
  .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
  .text          0x00000000        0x0 ./src/main.o
  .data          0x00000000        0x0 ./src/main.o
  .bss           0x00000000        0x0 ./src/main.o
@@ -1083,33 +1094,32 @@ LOAD c:/nxp/s32ds_arm_v2.2/s32ds/build_tools/gcc_v6.3/gcc-6.3-arm32-eabi/bin/../
  .text.SysTick_Handler
                 0x0000211c       0x1c ./src/funtion.o
                 0x0000211c                SysTick_Handler
- .text.main     0x00002138       0xf4 ./src/main.o
+ .text.main     0x00002138       0xf8 ./src/main.o
                 0x00002138                main
  .text.PORTC_IRQHandler
-                0x0000222c       0xd8 ./src/main.o
-                0x0000222c                PORTC_IRQHandler
+                0x00002230       0xd8 ./src/main.o
+                0x00002230                PORTC_IRQHandler
  .text.LPUART1_RxTx_IRQHandler
-                0x00002304       0x7c ./src/main.o
-                0x00002304                LPUART1_RxTx_IRQHandler
- .text.exit     0x00002380       0x20 C:/NXP/S32DS_ARM_v2.2/S32DS/build_tools/gcc_v6.3/gcc-6.3-arm32-eabi/arm-none-eabi/newlib/lib/thumb/v7e-m\libc.a(lib_a-exit.o)
-                0x00002380                exit
+                0x00002308       0x7c ./src/main.o
+                0x00002308                LPUART1_RxTx_IRQHandler
+ .text.exit     0x00002384       0x20 C:/NXP/S32DS_ARM_v2.2/S32DS/build_tools/gcc_v6.3/gcc-6.3-arm32-eabi/arm-none-eabi/newlib/lib/thumb/v7e-m\libc.a(lib_a-exit.o)
+                0x00002384                exit
  .text.__libc_init_array
-                0x000023a0       0x48 C:/NXP/S32DS_ARM_v2.2/S32DS/build_tools/gcc_v6.3/gcc-6.3-arm32-eabi/arm-none-eabi/newlib/lib/thumb/v7e-m\libc.a(lib_a-init.o)
-                0x000023a0                __libc_init_array
- .text.memset   0x000023e8       0x10 C:/NXP/S32DS_ARM_v2.2/S32DS/build_tools/gcc_v6.3/gcc-6.3-arm32-eabi/arm-none-eabi/newlib/lib/thumb/v7e-m\libc.a(lib_a-memset.o)
-                0x000023e8                memset
- .text.sprintf  0x000023f8       0x48 C:/NXP/S32DS_ARM_v2.2/S32DS/build_tools/gcc_v6.3/gcc-6.3-arm32-eabi/arm-none-eabi/newlib/lib/thumb/v7e-m\libc.a(lib_a-sprintf.o)
-                0x000023f8                sprintf
+                0x000023a4       0x48 C:/NXP/S32DS_ARM_v2.2/S32DS/build_tools/gcc_v6.3/gcc-6.3-arm32-eabi/arm-none-eabi/newlib/lib/thumb/v7e-m\libc.a(lib_a-init.o)
+                0x000023a4                __libc_init_array
+ .text.memset   0x000023ec       0x10 C:/NXP/S32DS_ARM_v2.2/S32DS/build_tools/gcc_v6.3/gcc-6.3-arm32-eabi/arm-none-eabi/newlib/lib/thumb/v7e-m\libc.a(lib_a-memset.o)
+                0x000023ec                memset
+ .text.sprintf  0x000023fc       0x48 C:/NXP/S32DS_ARM_v2.2/S32DS/build_tools/gcc_v6.3/gcc-6.3-arm32-eabi/arm-none-eabi/newlib/lib/thumb/v7e-m\libc.a(lib_a-sprintf.o)
+                0x000023fc                sprintf
  .text._svfprintf_r
-                0x00002440      0xfa0 C:/NXP/S32DS_ARM_v2.2/S32DS/build_tools/gcc_v6.3/gcc-6.3-arm32-eabi/arm-none-eabi/newlib/lib/thumb/v7e-m\libc.a(lib_a-svfprintf.o)
-                0x00002440                _svfprintf_r
+                0x00002444      0xfa0 C:/NXP/S32DS_ARM_v2.2/S32DS/build_tools/gcc_v6.3/gcc-6.3-arm32-eabi/arm-none-eabi/newlib/lib/thumb/v7e-m\libc.a(lib_a-svfprintf.o)
+                0x00002444                _svfprintf_r
  .text.startup.register_fini
-                0x000033e0       0x14 C:/NXP/S32DS_ARM_v2.2/S32DS/build_tools/gcc_v6.3/gcc-6.3-arm32-eabi/arm-none-eabi/newlib/lib/thumb/v7e-m\libc.a(lib_a-__call_atexit.o)
+                0x000033e4       0x14 C:/NXP/S32DS_ARM_v2.2/S32DS/build_tools/gcc_v6.3/gcc-6.3-arm32-eabi/arm-none-eabi/newlib/lib/thumb/v7e-m\libc.a(lib_a-__call_atexit.o)
  .text.__call_exitprocs
-                0x000033f4       0xc8 C:/NXP/S32DS_ARM_v2.2/S32DS/build_tools/gcc_v6.3/gcc-6.3-arm32-eabi/arm-none-eabi/newlib/lib/thumb/v7e-m\libc.a(lib_a-__call_atexit.o)
-                0x000033f4                __call_exitprocs
- .text.quorem   0x000034bc      0x118 C:/NXP/S32DS_ARM_v2.2/S32DS/build_tools/gcc_v6.3/gcc-6.3-arm32-eabi/arm-none-eabi/newlib/lib/thumb/v7e-m\libc.a(lib_a-dtoa.o)
- *fill*         0x000035d4        0x4 
+                0x000033f8       0xc8 C:/NXP/S32DS_ARM_v2.2/S32DS/build_tools/gcc_v6.3/gcc-6.3-arm32-eabi/arm-none-eabi/newlib/lib/thumb/v7e-m\libc.a(lib_a-__call_atexit.o)
+                0x000033f8                __call_exitprocs
+ .text.quorem   0x000034c0      0x118 C:/NXP/S32DS_ARM_v2.2/S32DS/build_tools/gcc_v6.3/gcc-6.3-arm32-eabi/arm-none-eabi/newlib/lib/thumb/v7e-m\libc.a(lib_a-dtoa.o)
  .text._dtoa_r  0x000035d8      0xb74 C:/NXP/S32DS_ARM_v2.2/S32DS/build_tools/gcc_v6.3/gcc-6.3-arm32-eabi/arm-none-eabi/newlib/lib/thumb/v7e-m\libc.a(lib_a-dtoa.o)
                 0x000035d8                _dtoa_r
  .text.__libc_fini_array
@@ -1584,7 +1594,7 @@ OUTPUT(Control_PWM_with_buttons.elf elf32-littlearm)
  .comment       0x000000a0       0xa1 ./src/main.o
  .comment       0x000000a0       0xa1 c:/nxp/s32ds_arm_v2.2/s32ds/build_tools/gcc_v6.3/gcc-6.3-arm32-eabi/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtend.o
 
-.debug_info     0x00000000     0x585d
+.debug_info     0x00000000     0x583b
  .debug_info    0x00000000      0x471 ./Project_Settings/Startup_Code/startup.o
  .debug_info    0x00000471       0x26 ./Project_Settings/Startup_Code/startup_S32K144.o
  .debug_info    0x00000497      0x522 ./Project_Settings/Startup_Code/system_S32K144.o
@@ -1594,9 +1604,9 @@ OUTPUT(Control_PWM_with_buttons.elf elf32-littlearm)
  .debug_info    0x00002d2b      0x58b ./src/PCC.o
  .debug_info    0x000032b6      0x670 ./src/SCG.o
  .debug_info    0x00003926      0x7c2 ./src/funtion.o
- .debug_info    0x000040e8     0x1775 ./src/main.o
+ .debug_info    0x000040e8     0x1753 ./src/main.o
 
-.debug_abbrev   0x00000000      0xcde
+.debug_abbrev   0x00000000      0xcbd
  .debug_abbrev  0x00000000      0x108 ./Project_Settings/Startup_Code/startup.o
  .debug_abbrev  0x00000108       0x14 ./Project_Settings/Startup_Code/startup_S32K144.o
  .debug_abbrev  0x0000011c      0x125 ./Project_Settings/Startup_Code/system_S32K144.o
@@ -1606,7 +1616,7 @@ OUTPUT(Control_PWM_with_buttons.elf elf32-littlearm)
  .debug_abbrev  0x000006ac      0x139 ./src/PCC.o
  .debug_abbrev  0x000007e5      0x15e ./src/SCG.o
  .debug_abbrev  0x00000943      0x160 ./src/funtion.o
- .debug_abbrev  0x00000aa3      0x23b ./src/main.o
+ .debug_abbrev  0x00000aa3      0x21a ./src/main.o
 
 .debug_aranges  0x00000000      0x1f0
  .debug_aranges
@@ -1641,7 +1651,7 @@ OUTPUT(Control_PWM_with_buttons.elf elf32-littlearm)
  .debug_ranges  0x00000100       0x20 ./src/funtion.o
  .debug_ranges  0x00000120       0x20 ./src/main.o
 
-.debug_macro    0x00000000    0x203b5
+.debug_macro    0x00000000    0x207f4
  .debug_macro   0x00000000       0xb5 ./Project_Settings/Startup_Code/startup.o
  .debug_macro   0x000000b5      0x8d4 ./Project_Settings/Startup_Code/startup.o
  .debug_macro   0x00000989       0x22 ./Project_Settings/Startup_Code/startup.o
@@ -1686,14 +1696,25 @@ OUTPUT(Control_PWM_with_buttons.elf elf32-littlearm)
  .debug_macro   0x0001fff2       0xbd ./src/funtion.o
  .debug_macro   0x000200af       0x16 ./src/funtion.o
  .debug_macro   0x000200c5       0x34 ./src/funtion.o
- .debug_macro   0x000200f9      0x1b8 ./src/main.o
- .debug_macro   0x000202b1       0x16 ./src/main.o
- .debug_macro   0x000202c7       0x31 ./src/main.o
- .debug_macro   0x000202f8       0x3d ./src/main.o
- .debug_macro   0x00020335       0x16 ./src/main.o
- .debug_macro   0x0002034b       0x6a ./src/main.o
+ .debug_macro   0x000200f9      0x26f ./src/main.o
+ .debug_macro   0x00020368       0x16 ./src/main.o
+ .debug_macro   0x0002037e       0x31 ./src/main.o
+ .debug_macro   0x000203af       0x3d ./src/main.o
+ .debug_macro   0x000203ec       0x16 ./src/main.o
+ .debug_macro   0x00020402       0x6a ./src/main.o
+ .debug_macro   0x0002046c       0x1c ./src/main.o
+ .debug_macro   0x00020488       0x10 ./src/main.o
+ .debug_macro   0x00020498       0x10 ./src/main.o
+ .debug_macro   0x000204a8       0x1c ./src/main.o
+ .debug_macro   0x000204c4       0x52 ./src/main.o
+ .debug_macro   0x00020516       0x40 ./src/main.o
+ .debug_macro   0x00020556       0x10 ./src/main.o
+ .debug_macro   0x00020566       0x40 ./src/main.o
+ .debug_macro   0x000205a6       0xd7 ./src/main.o
+ .debug_macro   0x0002067d       0x16 ./src/main.o
+ .debug_macro   0x00020693      0x161 ./src/main.o
 
-.debug_line     0x00000000     0x1e2e
+.debug_line     0x00000000     0x1ec8
  .debug_line    0x00000000      0x33a ./Project_Settings/Startup_Code/startup.o
  .debug_line    0x0000033a       0x91 ./Project_Settings/Startup_Code/startup_S32K144.o
  .debug_line    0x000003cb      0x357 ./Project_Settings/Startup_Code/system_S32K144.o
@@ -1703,9 +1724,9 @@ OUTPUT(Control_PWM_with_buttons.elf elf32-littlearm)
  .debug_line    0x00001109      0x2d0 ./src/PCC.o
  .debug_line    0x000013d9      0x2f4 ./src/SCG.o
  .debug_line    0x000016cd      0x324 ./src/funtion.o
- .debug_line    0x000019f1      0x43d ./src/main.o
+ .debug_line    0x000019f1      0x4d7 ./src/main.o
 
-.debug_str      0x00000000    0x6d29a
+.debug_str      0x00000000    0x6e376
  .debug_str     0x00000000    0x6813c ./Project_Settings/Startup_Code/startup.o
                               0x68369 (size before relaxing)
  .debug_str     0x0006813c       0x3f ./Project_Settings/Startup_Code/startup_S32K144.o
@@ -1724,8 +1745,8 @@ OUTPUT(Control_PWM_with_buttons.elf elf32-littlearm)
                                0x3be4 (size before relaxing)
  .debug_str     0x0006cddb      0x239 ./src/funtion.o
                                0x3fda (size before relaxing)
- .debug_str     0x0006d014      0x286 ./src/main.o
-                               0x7e0f (size before relaxing)
+ .debug_str     0x0006d014     0x1362 ./src/main.o
+                               0x8eeb (size before relaxing)
 
 .debug_frame    0x00000000     0x1030
  .debug_frame   0x00000000       0x38 ./Project_Settings/Startup_Code/startup.o

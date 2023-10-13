@@ -5,8 +5,8 @@
 #include "LPSPI_Type.h"
 #include "ledMax7219.h"
 #include "SIM_Type.h"
-#include "string.h"
 #include "FTM_type.h"
+#include <stdio.h>
 
 #define FLAG_FROM_PTC(pin) 				PORTC->PORT_PCR[pin].Fields.ISF == 1
 #define CLEAR_FLAG_PTC(pin) 			PORTC->PORT_PCR[pin].Fields.ISF = 1;
@@ -15,7 +15,7 @@ static char buffer[10];
 static int8_t buffer_index = 0;
 void PORTC_IRQHandler(void);
 void LPUART1_RxTx_IRQHandler(void);
-uint32_t Duti_cricle = 125;
+int Duti_cricle = 125;
 uint8_t SendMessage_Command = Disable;
 static char message[30];
 static char arr[] = "hello world!!\n";
