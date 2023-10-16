@@ -4,49 +4,41 @@
 #define FLEXCAN0_BASE_ADDRESS 0x40024000
 #define FLEXCAN1_BASE_ADDRESS 0x40025000
 #define FLEXCAN2_BASE_ADDRESS 0x4002B000
-#define CAN_MCR_MDIS_MASK  0x80000000u
+#define CAN_MCR_MDIS_MASK 0x80000000u
 #define CAN_CTRL1_CLKSRC_MASK 0x2000u
-#define CAN_MCR_FRZACK_MASK   0x1000000u
-#define CAN_MCR_FRZACK_SHIFT  24u
-typedef union 
+#define CAN_MCR_FRZACK_MASK 0x1000000u
+#define CAN_MCR_FRZACK_SHIFT 24u
+#define CAN_MCR_NOTRDY_MASK 0x8000000u
+#define CAN_MCR_NOTRDY_SHIFT 27u
+typedef union
 {
     uint32_t Register;
-    struct 
+    struct
     {
-        
-
-
-
-
-
-
-
-        
-        uint32_t RJW;
-        uint32_t PSEG1;
-        uint32_t PSEG2;
-        uint32_t BOFFMSK;
-        uint32_t ERRMSK;
-        uint32_t CLKSRC;
-        uint32_t LPB;
-        uint32_t TWRNMSK;
-        uint32_t RWRNMSK;
-        uint32_t SMP;
-        uint32_t BOFFREC;
-        uint32_t TSYN;
-        uint32_t LBUF;
-        uint32_t LOM;
         uint32_t PROPSEG;
+        uint32_t LOM;
+        uint32_t LBUF;
+        uint32_t TSYN;
+        uint32_t BOFFREC;
+        uint32_t SMP;
+        uint32_t Reserved[2];
+        uint32_t RWRNMSK;
+        uint32_t TWRNMSK;
+        uint32_t LPB;
+        uint32_t CLKSRC;
+        uint32_t ERRMSK;
+        uint32_t BOFFMSK;
+        uint32_t PSEG2;
+        uint32_t PSEG1;
+        uint32_t RJW;
         uint32_t PRESDIV;
-    }Fields;
-    
+    } Fields;
+} CTRL1_t;
 
-};
-
-typedef struct 
+typedef struct
 {
     volatile uint32_t MCR;
-    volatile uint32_t CTRL1;
+    volatile CTRL1_t CTRL1;
     volatile uint32_t TIMER;
     uint32_t Reserved;
     volatile uint32_t RXMGMASK;
@@ -100,9 +92,9 @@ typedef struct
     volatile uint32_t FDCTRL;
     volatile uint32_t FDCBT;
     volatile uint32_t FDCRC;
-}FlexCAN_type;
+} FlexCAN_type;
 void FlexCAN0init(void);
-#define CAN0 ((FlexCAN_type*)(FLEXCAN0_BASE_ADDRESS))
-#define CAN1 ((FlexCAN_type*)(FLEXCAN1_BASE_ADDRESS))
-#define CAN2 ((FlexCAN_type*)(FLEXCAN2_BASE_ADDRESS))
+#define CAN0 ((FlexCAN_type *)(FLEXCAN0_BASE_ADDRESS))
+#define CAN1 ((FlexCAN_type *)(FLEXCAN1_BASE_ADDRESS))
+#define CAN2 ((FlexCAN_type *)(FLEXCAN2_BASE_ADDRESS))
 #endif
