@@ -10,6 +10,10 @@
 #define CAN_MCR_FRZACK_SHIFT 24u
 #define CAN_MCR_NOTRDY_MASK 0x8000000u
 #define CAN_MCR_NOTRDY_SHIFT 27u
+#define CAN_WMBn_CS_DLC_SHIFT 16u
+#define CAN_WMBn_ID_ID_MASK 0x1FFFFFFFu
+#define CAN_WMBn_ID_ID_SHIFT 0u
+#define CAN_WMBn_CS_DLC_MASK 0xF0000u
 typedef union
 {
     uint32_t Register;
@@ -94,6 +98,8 @@ typedef struct
     volatile uint32_t FDCRC;
 } FlexCAN_type;
 void FlexCAN0init(void);
+void FLEXCAN0_transmit_msg(void);
+void FLEXCAN0_receive_msg(void);
 #define CAN0 ((FlexCAN_type *)(FLEXCAN0_BASE_ADDRESS))
 #define CAN1 ((FlexCAN_type *)(FLEXCAN1_BASE_ADDRESS))
 #define CAN2 ((FlexCAN_type *)(FLEXCAN2_BASE_ADDRESS))

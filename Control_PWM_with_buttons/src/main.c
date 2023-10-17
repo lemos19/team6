@@ -1,3 +1,26 @@
+/******************************************************************************
+|------------------------------------------------------------------------------
+|   FILE DESCRIPTION                                                           
+|------------------------------------------------------------------------------
+|    File Name:   <main>.<c>
+|    Course:      EMB - Class 3                                                  
+|    Date:        01-10-2023
+|    Description: Source file for task 2, team 6
+|------------------------------------------------------------------------------
+|
+|------------------------------------------------------------------------------
+|               A U T H O R   I D E N T I T Y                                  
+|------------------------------------------------------------------------------
+| Name: Phan Hoang Chanh 
+|------------------------------------------------------------------------------
+|               EXECUTION NOTE
+|------------------------------------------------------------------------------
+| Note: use for s32k144 serial
+| ---------------------------------------------------------------------------*/
+
+/******************************************************************************
+ *  INCLUDES
+ *****************************************************************************/
 #include "MacroAndFuntion.h"
 #include "LPIT_Type.h"
 #include "LPUART.h"
@@ -7,18 +30,28 @@
 #include "SIM_Type.h"
 #include "FTM_type.h"
 #include <stdio.h>
-
+/******************************************************************************
+ *  DEFINES & MACROS
+ *****************************************************************************/
 #define FLAG_FROM_PTC(pin) 				PORTC->PORT_PCR[pin].Fields.ISF == 1
 #define CLEAR_FLAG_PTC(pin) 			PORTC->PORT_PCR[pin].Fields.ISF = 1;
-
+/******************************************************************************
+ *  VARIABLES
+ *****************************************************************************/
 static char buffer[10];
 static int8_t buffer_index = 0;
-void PORTC_IRQHandler(void);
-void LPUART1_RxTx_IRQHandler(void);
 int Duti_cricle = 125;
 uint8_t SendMessage_Command = Disable;
 static char message[30];
 static char arr[] = "hello world!!\n";
+/******************************************************************************
+ *  FUNCTION PROTOTYPES
+ *****************************************************************************/
+void PORTC_IRQHandler(void);
+void LPUART1_RxTx_IRQHandler(void);
+/******************************************************************************
+ *  FUNCTION DECLARATION
+ *****************************************************************************/
 int main(void)
 {
 	initializeGPIOandSystick();
@@ -26,7 +59,8 @@ int main(void)
 	Config_SPLL_CLK(SOSC, Div1, Multi20); // 80Mhz
 	Config_RCCR(SPLL, 0 /*div core by 1*/, 1 /*div bus by 2*/, 2 /*div slow by 3*/);
 	SCG_Asyn_Peripheral_Sources(FIRCDIV2_CLK, Div_By_1); // 48Mhz
-
+	SCG_Asyn_Peripheral_Sources(SOSCDIV2_CLK, Div_By_1);
+	FlexCAN0init();
 	SCG->SCG_SOSCDIV.Fields.Div1 = Div_By_1;
 	FTM_init
 	(
@@ -123,3 +157,6 @@ void LPUART1_RxTx_IRQHandler(void)
 	}
 	buffer_index++;
 }
+/******************************************************************************
+*                           End of File                                       *
+******************************************************************************/

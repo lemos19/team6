@@ -32,6 +32,7 @@
 
 #include "device_registers.h"	/* include peripheral declarations */
 #include "FlexCAN.h"
+#include "S32K144.h"
 
 uint32_t  RxCODE;              /*< Received message buffer code 			*/
 uint32_t  RxID;                /*< Received message ID 					*/

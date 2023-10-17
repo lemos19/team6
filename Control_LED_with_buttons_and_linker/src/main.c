@@ -1,3 +1,26 @@
+/******************************************************************************
+|------------------------------------------------------------------------------
+|   FILE DESCRIPTION                                                           
+|------------------------------------------------------------------------------
+|    File Name:   <main>.<c>
+|    Course:      EMB - Class 3                                                  
+|    Date:        01-10-2023
+|    Description: Source file for task 1, team 6
+|------------------------------------------------------------------------------
+|
+|------------------------------------------------------------------------------
+|               A U T H O R   I D E N T I T Y                                  
+|------------------------------------------------------------------------------
+| Name: Phan Hoang Chanh 
+|------------------------------------------------------------------------------
+|               EXECUTION NOTE
+|------------------------------------------------------------------------------
+| Note: use for s32k144 serial
+| ---------------------------------------------------------------------------*/
+
+/******************************************************************************
+ *  INCLUDES
+ *****************************************************************************/
 #include "MacroAndFuntion.h"
 #include "LPIT_Type.h"
 #include "LPUART.h"
@@ -8,7 +31,9 @@
 #include "string.h"
 #include <math.h>
 #include <stdio.h>
-
+/******************************************************************************
+ *  DEFINES & MACROS
+ *****************************************************************************/
 #define CLEAR_FLAG_LPIT_CHANEL(chanel) LPIT->MSR.Fields.TIF##chanel = 1;
 #define ENABLE_LPIT_CHANEL(chanel) LPIT->TCTRL##chanel.Fields.T_EN = Enable;
 #define DISABLE_LPIT_CHANEL(chanel) LPIT->TCTRL##chanel.Fields.T_EN = Disable;
@@ -16,30 +41,41 @@
 #define STATUS_LPIT_CHANEL0 LPIT->TCTRL0.Fields.T_EN
 #define FLAG_FROM_PTC(pin) PORTC->PORT_PCR[pin].Fields.ISF == 1
 #define CLEAR_FLAG_PTC(pin) PORTC->PORT_PCR[pin].Fields.ISF = 1;
-
-static char buffer[10];
-static int8_t buffer_index = 0;
-void PORTC_IRQHandler(void);
-void LPUART1_RxTx_IRQHandler(void);
-void LPIT0_Ch0_IRQHandler(void);
-void LPIT0_Ch1_IRQHandler(void);
-void LPIT0_Ch2_IRQHandler(void);
-void Blink_Led_Function(void);
 typedef enum
 {
 	Red_led = 15,
 	Green_led = 16,
 	Blu_led = 0
 } LED;
+/******************************************************************************
+ *  VARIABLES
+ *****************************************************************************/
+static char buffer[10];
+static int8_t buffer_index = 0;
 static LED switch_led = Red_led;
 uint8_t counter = 10;
 static char messageHello[] = "\nhello world!!\n";
 static char messageUpdateCounter[30];
 static uint32_t timeValue = 125000;
 uint8_t sendCommand = 0;
+/******************************************************************************
+ *  FUNCTION PROTOTYPES
+ *****************************************************************************/
+void PORTC_IRQHandler(void);
+void LPUART1_RxTx_IRQHandler(void);
+void LPIT0_Ch0_IRQHandler(void);
+void LPIT0_Ch1_IRQHandler(void);
+void LPIT0_Ch2_IRQHandler(void);
+void Blink_Led_Function(void);
+/******************************************************************************
+ *  attribute to memmory section 
+ *****************************************************************************/
 void Blink_Led_Function() __attribute__((section(".flash_blinkled")));
 uint8_t counter __attribute__((section(".new_data")));
 uint8_t sendCommand __attribute__((section(".new_data")));
+/******************************************************************************
+ *  FUNCTION DECLARATION
+ *****************************************************************************/
 void Blink_Led_Function(void){
 	switch (switch_led)
 	{
@@ -171,3 +207,6 @@ void LPUART1_RxTx_IRQHandler(void)
 	}
 	buffer_index++;
 }
+/******************************************************************************
+*                           End of File                                       *
+******************************************************************************/
