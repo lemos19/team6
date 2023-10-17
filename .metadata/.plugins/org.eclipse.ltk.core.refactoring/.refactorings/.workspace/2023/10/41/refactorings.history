@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;S32K144_Project_FTM&apos;" deleteContents="true" description="Delete resource &apos;S32K144_Project_FTM&apos;" element1="/S32K144_Project_FTM" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1696844732525"/>&#x0A;<refactoring comment="Delete resource &apos;S32K144_Project_LPI2C&apos;" deleteContents="true" description="Delete resource &apos;S32K144_Project_LPI2C&apos;" element1="/S32K144_Project_LPI2C" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1697160979414"/>
-</session>

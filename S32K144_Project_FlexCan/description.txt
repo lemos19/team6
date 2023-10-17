@@ -1,6 +1,0 @@
-Transmit and receive an eight byte CAN 2.0 message at 500 KHz: • Initialize FlexCAN and Message Buffer 4 to receive a message 
-• Transmit one frame using Message Buffer 0 
-• Loop:◦If Message Buffer 4 received message flag is set, read message
-◦If Message Buffer 0 transmit done flag is set, transmit another message 
-
-
