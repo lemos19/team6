@@ -1,3 +1,26 @@
+/******************************************************************************
+|------------------------------------------------------------------------------
+|   FILE DESCRIPTION                                                           
+|------------------------------------------------------------------------------
+|    File Name:   <main>.<c>
+|    Course:      EMB - Class 3                                                  
+|    Date:        01-10-2023
+|    Description: Source file for task 2, team 6
+|------------------------------------------------------------------------------
+|
+|------------------------------------------------------------------------------
+|               A U T H O R   I D E N T I T Y                                  
+|------------------------------------------------------------------------------
+| Name: Phan Hoang Chanh 
+|------------------------------------------------------------------------------
+|               EXECUTION NOTE
+|------------------------------------------------------------------------------
+| Note: use for s32k144 serial
+| ---------------------------------------------------------------------------*/
+
+/******************************************************************************
+ *  INCLUDES
+ *****************************************************************************/
 #include "MacroAndFuntion.h"
 #include "LPIT_Type.h"
 #include "LPUART.h"
@@ -5,20 +28,31 @@
 #include "LPSPI_Type.h"
 #include "ledMax7219.h"
 #include "SIM_Type.h"
-#include "string.h"
 #include "FTM_type.h"
-
+#include <stdio.h>
+/******************************************************************************
+ *  DEFINES & MACROS
+ *****************************************************************************/
 #define FLAG_FROM_PTC(pin) 				PORTC->PORT_PCR[pin].Fields.ISF == 1
 #define CLEAR_FLAG_PTC(pin) 			PORTC->PORT_PCR[pin].Fields.ISF = 1;
-
+#define PCC_CGC_BIT 30
+/******************************************************************************
+ *  VARIABLES
+ *****************************************************************************/
 static char buffer[10];
 static int8_t buffer_index = 0;
-void PORTC_IRQHandler(void);
-void LPUART1_RxTx_IRQHandler(void);
-uint32_t Duti_cricle = 125;
+int Duti_cricle = 125;
 uint8_t SendMessage_Command = Disable;
 static char message[30];
 static char arr[] = "hello world!!\n";
+/******************************************************************************
+ *  FUNCTION PROTOTYPES
+ *****************************************************************************/
+void PORTC_IRQHandler(void);
+void LPUART1_RxTx_IRQHandler(void);
+/******************************************************************************
+ *  FUNCTION DECLARATION
+ *****************************************************************************/
 int main(void)
 {
 	initializeGPIOandSystick();
@@ -26,6 +60,12 @@ int main(void)
 	Config_SPLL_CLK(SOSC, Div1, Multi20); // 80Mhz
 	Config_RCCR(SPLL, 0 /*div core by 1*/, 1 /*div bus by 2*/, 2 /*div slow by 3*/);
 	SCG_Asyn_Peripheral_Sources(FIRCDIV2_CLK, Div_By_1); // 48Mhz
+	SCG_Asyn_Peripheral_Sources(SOSCDIV2_CLK, Div_By_1);
+
+	FlexCAN0init();
+	PCC->PCC_PORTE = SET_BIT(PCC->PCC_PORTE,PCC_CGC_BIT);
+	PORTE->PORT_PCR[4].Fields.MUX=5;
+	PORTE->PORT_PCR[5].Fields.MUX=5;
 
 	SCG->SCG_SOSCDIV.Fields.Div1 = Div_By_1;
 	FTM_init
@@ -33,7 +73,7 @@ int main(void)
 		FTM_0,
 		SOSCDIV1_CLK,
 		Div_16,
-		250-1 		/* modulo value --- clockout = clockin/(pre scale*modulo) */
+		249 		/* modulo value --- clockout = clockin/(pre scale*modulo) */
 	);
 	FTM0->CnSC_And_CnV[1].CnV = Duti_cricle; /*duti cricle*/
 	PORTD->PORT_PCR[16].Fields.MUX = 2; /*FTM0 chanel 1*/
@@ -94,11 +134,11 @@ void PORTC_IRQHandler(void)
 		CLEAR_FLAG_PTC(15)
 		if (FTM0->SC.Fields.PS == Div_16)
 		{
-			FTM0->SC.Fields.PS == Div_8;
+			FTM0->SC.Fields.PS = Div_8;
 		}
 		else
 		{
-			FTM0->SC.Fields.PS == Div_16;
+			FTM0->SC.Fields.PS = Div_16;
 		}
 		Duti_cricle = 125;
 		FTM0->CnSC_And_CnV[1].CnV = Duti_cricle;
@@ -113,7 +153,7 @@ void LPUART1_RxTx_IRQHandler(void)
 		buffer[buffer_index] = '\0';
 		if (!(strcmp("SW2", buffer)))
 		{
-			/*nothing*/   //hehehehe//
+			/*nothing*/   
 		}
 		else if (!(strcmp("SW3", buffer)))
 		{
@@ -123,3 +163,6 @@ void LPUART1_RxTx_IRQHandler(void)
 	}
 	buffer_index++;
 }
+/******************************************************************************
+*                           End of File                                       *
+******************************************************************************/

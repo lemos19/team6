@@ -5,6 +5,7 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../src/FTM.c \
+../src/FlexCAN.c \
 ../src/LPIT.c \
 ../src/LPSPI.c \
 ../src/LPUART.c \
@@ -19,6 +20,7 @@ C_SRCS += \
 
 OBJS += \
 ./src/FTM.o \
+./src/FlexCAN.o \
 ./src/LPIT.o \
 ./src/LPSPI.o \
 ./src/LPUART.o \
@@ -33,6 +35,7 @@ OBJS += \
 
 C_DEPS += \
 ./src/FTM.d \
+./src/FlexCAN.d \
 ./src/LPIT.d \
 ./src/LPSPI.d \
 ./src/LPUART.d \
