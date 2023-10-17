@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;Assignments_for_basic_embedded/src/main_Task3.c&apos; to &apos;main.c&apos;" description="Rename resource &apos;main_Task3.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main_Task3.c" name="main.c" stamp="1696407085324" updateReferences="true"/>
-</session>
