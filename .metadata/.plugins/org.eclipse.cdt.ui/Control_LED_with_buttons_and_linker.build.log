@@ -1,12 +1,17 @@
-13:42:25 **** Incremental Build of configuration Debug_FLASH for project Control_LED_with_buttons_and_linker ****
+11:13:32 **** Incremental Build of configuration Debug_FLASH for project Control_LED_with_buttons_and_linker ****
 make -j12 all 
 Building file: ../src/funtion.c
-Invoking: Standard S32DS C Compiler
+Building file: ../src/ledMax7219.c
 Building file: ../src/main.c
+Invoking: Standard S32DS C Compiler
 arm-none-eabi-gcc "@src/LPIT.args" -MMD -MP -MF"src/funtion.d" -MT"src/funtion.o" -o "src/funtion.o" "../src/funtion.c"
 Invoking: Standard S32DS C Compiler
 arm-none-eabi-gcc "@src/LPIT.args" -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@src/LPIT.args" -MMD -MP -MF"src/ledMax7219.d" -MT"src/ledMax7219.o" -o "src/ledMax7219.o" "../src/ledMax7219.c"
 Finished building: ../src/funtion.c
+Finished building: ../src/ledMax7219.c
+ 
  
 Finished building: ../src/main.c
  
@@ -22,5 +27,5 @@ arm-none-eabi-size --format=berkeley Control_LED_with_buttons_and_linker.elf
 Finished building: Control_LED_with_buttons_and_linker.siz
  
 
-13:42:26 Build Finished (took 959ms)
+11:13:33 Build Finished (took 807ms)
 

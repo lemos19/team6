@@ -35,7 +35,6 @@
  *****************************************************************************/
 #define FLAG_FROM_PTC(pin) 				PORTC->PORT_PCR[pin].Fields.ISF == 1
 #define CLEAR_FLAG_PTC(pin) 			PORTC->PORT_PCR[pin].Fields.ISF = 1;
-#define PCC_CGC_BIT 30
 /******************************************************************************
  *  VARIABLES
  *****************************************************************************/
@@ -61,12 +60,7 @@ int main(void)
 	Config_RCCR(SPLL, 0 /*div core by 1*/, 1 /*div bus by 2*/, 2 /*div slow by 3*/);
 	SCG_Asyn_Peripheral_Sources(FIRCDIV2_CLK, Div_By_1); // 48Mhz
 	SCG_Asyn_Peripheral_Sources(SOSCDIV2_CLK, Div_By_1);
-
 	FlexCAN0init();
-	PCC->PCC_PORTE = SET_BIT(PCC->PCC_PORTE,PCC_CGC_BIT);
-	PORTE->PORT_PCR[4].Fields.MUX=5;
-	PORTE->PORT_PCR[5].Fields.MUX=5;
-
 	SCG->SCG_SOSCDIV.Fields.Div1 = Div_By_1;
 	FTM_init
 	(

@@ -58,13 +58,13 @@ void FLEXCAN0_transmit_msg(void)
     CAN0->RAMn[0 * MSG_BUF_SIZE + 3] = 0x44556677; /* MB0 word 3: data word 1 */
     CAN0->RAMn[0 * MSG_BUF_SIZE + 1] = 0x15540000; /* MB0 word 1: Tx msg with STD ID 0x555 */
     CAN0->RAMn[0 * MSG_BUF_SIZE + 0] = 0x0C400000 | 8 << CAN_WMBn_CS_DLC_SHIFT;
-    /* MB0 word 0: 								*/
-    /* EDL,BRS,ESI=0: CANFD not used 				*/
-    /* CODE=0xC: Activate msg buf to transmit 		*/
-    /* IDE=0: Standard ID 							*/
-    /* SRR=1 Tx frame (not req'd for std ID) 		*/
-    /* RTR = 0: data, not remote tx request frame	*/
-    /* DLC = 8 bytes 								*/
+                                                    /* MB0 word 0: 								    */
+                                                    /* EDL,BRS,ESI=0: CANFD not used 				*/
+                                                    /* CODE=0xC: Activate msg buf to transmit 		*/
+                                                    /* IDE=0: Standard ID 							*/
+                                                    /* SRR=1 Tx frame (not req'd for std ID) 		*/
+                                                    /* RTR = 0: data, not remote tx request frame	*/
+                                                    /* DLC = 8 bytes 								*/
 }
 void FLEXCAN0_receive_msg(void)
 {

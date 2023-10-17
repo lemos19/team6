@@ -12,16 +12,6 @@ void WDOG_disable (void)
 
 void PORT_init (void)
 {
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
   PCC->PCCn[PCC_PORTE_INDEX] |= PCC_PCCn_CGC_MASK;	
   PORTE->PCR[4] |= PORT_PCR_MUX(5);	
   PORTE->PCR[5] |= PORT_PCR_MUX(5); 

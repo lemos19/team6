@@ -92,7 +92,7 @@ typedef struct
     volatile uint32_t WMB3_ID;
     volatile uint32_t WMB3_D03;
     volatile uint32_t WMB3_D47;
-    uint32_t Reserved6[32];
+    uint32_t Reserved4[32];
     volatile uint32_t FDCTRL;
     volatile uint32_t FDCBT;
     volatile uint32_t FDCRC;
