@@ -149,7 +149,7 @@ typedef struct {
     volatile uint32_t RDR;
 }LPSPI_Type;
 void Config_LPSPI_Chanel(LPSPI_Chanel,
-Source,
+Source_div2_t,
 PRESCALE_devide,
 CPOL,
 CPHA,

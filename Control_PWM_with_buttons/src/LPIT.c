@@ -2,7 +2,7 @@
 #include "SCG_Type.h"
 #include "NVIC_Type.h"
 void Config_LPIT_Chanel(LPIT_Chanel chanel,
-Source clock_sorce,
+Source_div2_t clock_sorce,
 Enable_Disable interrupt,
 uint32_t timeValue){
     PCC_LPIT_ClockSource(clock_sorce);

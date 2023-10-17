@@ -171,7 +171,7 @@ typedef struct{
 #define LPUART1 ((LPUART_Type*)(LPUART1_BASE_ADD))
 #define LPUART2 ((LPUART_Type*)(LPUART2_BASE_ADD))
 void Config_LPUART_Chanel(LPUART_Chanel Chanel,
-Source source,
+Source_div2_t source,
 uint16_t baud_rate_modulo_divisor,
 Oversampling_Ratio oversampling_ratio,
 StopBit_Num numS,

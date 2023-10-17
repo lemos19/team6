@@ -109,7 +109,7 @@ typedef enum{
 }LPIT_Chanel;
 
 void Config_LPIT_Chanel(LPIT_Chanel chanel,
-Source clock_sorce,
+Source_div2_t clock_sorce,
 Enable_Disable interrupt,
 uint32_t timeValue);
 void LPIT_Set_Clear_Chanel(LPIT_Chanel chanel,Enable_Disable e_d);

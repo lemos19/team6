@@ -1,5 +1,5 @@
 #include "SCG_Type.h"
-void SCG_Asyn_Peripheral_Sources(Source source,Divide_Options div){
+void SCG_Asyn_Peripheral_Sources(Source_div2_t source,Divide_Options div){
     if (source == FIRCDIV2_CLK){
         SCG->SCG_FIRCDIV.Fields.Div2 = div;
     }
